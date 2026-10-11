@@ -1,3 +1,4 @@
+import 'package:device_features_mini_project/screens/audio_screen.dart';
 import 'package:device_features_mini_project/screens/device_info_screen.dart';
 import 'package:device_features_mini_project/screens/gallery_screen.dart';
 import 'package:device_features_mini_project/screens/map_screen.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: MapScreen(),
+      home: AudioScreen(),
     );
   }
 }

@@ -37,6 +37,9 @@ dependencies:
   device_info_plus: ^13.3.0
   image_picker: ^1.2.4
   google_maps_flutter: ^2.18.1
+  record: ^7.1.2
+  audioplayers: ^6.8.1
+  path_provider: ^2.1.6
 
 dev_dependencies:
   flutter_test:
