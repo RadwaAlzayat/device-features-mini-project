@@ -22,15 +22,6 @@ A Flutter app that integrates native device features, one phase at a time.
 
 On web, the browser asks for microphone access when recording starts (requires HTTPS or localhost).
 
-## Google Maps API Key
-
-The key is not included in this repository. Add your own key in
-`android/app/src/main/AndroidManifest.xml`:
-
-    <meta-data
-        android:name="com.google.android.geo.API_KEY"
-        android:value="YOUR_API_KEY"/>
-
 ## Project Structure
 
     lib/
